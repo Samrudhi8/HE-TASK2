@@ -7,7 +7,6 @@ int main()
 	int N;
     int i;
 
-	cout << "Enter a number\n";
 	cin >> N;
 	while (N != 0)
 	{
