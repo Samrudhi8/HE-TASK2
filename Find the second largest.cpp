@@ -8,9 +8,9 @@ int main()
 	int A,B,C;
 	int num;
 	
-	cout << "NO. of Testcases:" << endl;
+
 	cin >> T;
-	cout << "Enter the numbers" << endl;
+	
 	while(T--)
 	{
 		cin >> A >> B >> C;
@@ -20,7 +20,7 @@ int main()
 		num = A;
 		else
 		num = C;
-		cout << "Second largest among them is\t" << num << endl;
+		cout << num << endl;
 	}
 	
 	return 0;
