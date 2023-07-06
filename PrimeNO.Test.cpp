@@ -20,9 +20,7 @@ int solve (int n){
 int main()
 {
 	int T,num;
-	cout << "No. of test cases" << endl;
 	cin >> T;
-	cout << "Numbers are:" << endl;
 	for(int i=0; i < T; i++)
 	{
 		cin >> num;
